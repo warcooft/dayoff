@@ -1,0 +1,24 @@
+{
+    "name": "aselsan/dayoff",
+    "description": "Indonesian National Dayoffs",
+    "type": "library",
+    "require": {
+        "codeigniter4/framework": "dev-master"
+    },
+    "require-dev": {
+        "codeigniter4/framework": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aselsan\\Dayoff\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "warcooft",
+            "email": "syamsuddine9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
