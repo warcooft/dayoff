@@ -4,7 +4,7 @@ namespace Aselsan\DayOff\Commands;
 
 use DOMDocument;
 use CodeIgniter\CLI\CLI;
-use App\Models\DayOffModel;
+use Aselsan\DayOff\Models\DayOffModel;
 use CodeIgniter\CLI\BaseCommand;
 
 class DayOff extends BaseCommand
