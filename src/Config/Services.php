@@ -26,6 +26,6 @@ class Services extends BaseService
             return static::getSharedInstance('dayoff');
         }
 
-        return new DayOffModel();
+        return model('DayOffModel');
     }
 }

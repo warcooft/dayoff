@@ -162,7 +162,7 @@ class DayOff extends BaseCommand
             ];
         }, $dataColllections);
 
-        $model = model(DayOffModel::class);
+        $model = model('DayOffModel');
         foreach ($renewCollection as $key => $val) {
             if (!$model
                 ->where('date', $val['date'])
